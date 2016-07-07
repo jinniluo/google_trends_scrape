@@ -1,0 +1,13 @@
+{
+  "name": "google_trends_scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrape.js",
+  "author": "Hang Do Thi Duc",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.72.0",
+    "scraperjs": "^1.2.0",
+    "x-ray": "^2.3.0"
+  }
+}
