@@ -2,7 +2,7 @@ var Xray = require('x-ray');
 var x = Xray();
 var fs = require('fs');
 
-x('http://www.google.com/trends/fetchComponent?hl=en-US&q=juno%20probe&geo=JP&date=now%207-d&cmpt=q&tz=Etc/GMT%2B4&tz=Etc/GMT%2B4&content=1&cid=GEO_MAP_0_0&export=0', 'tr', [{
+x('http://www.google.com/trends/fetchComponent?hl=en-US&q=euro%202016&geo=JP&date=now%207-d&cmpt=q&tz=Etc/GMT%2B4&tz=Etc/GMT%2B4&content=1&cid=GEO_MAP_0_0&export=0', 'tr', [{
   name: 'a',
   code: 'a@href',
   value: '.trends-hbars-value'
