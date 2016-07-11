@@ -24,7 +24,7 @@ function parseHTML(_html, _country) {
         });
 }
 
-function getGraph(_topic, _country) {
+function timeGraphTable(_topic, _country) {
     console.log(_topic, _country);
     var url1 = "http://www.google.com/trends/fetchComponent?hl=en-US&q=" + encodeURIComponent(_topic) + "&geo=US&date=now%207-d&cmpt=q&tz=Etc/GMT%2B4&tz=Etc/GMT%2B4&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=500&h=330";
     var url2 = "http://www.google.com/trends/explore#q=fourth+of+july&date=now+7-d&geo=US";
@@ -47,7 +47,7 @@ function topTopic(_country) {
             var topic = JSON.parse(body)[_country][0] + "";
             data["country"] = _country;
             data["topic"] = topic;
-            getGraph(topic, _country);
+            timeGraphTable(topic, _country);
         }
     });
 }
